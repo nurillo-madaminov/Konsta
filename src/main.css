@@ -1,0 +1,24 @@
+@import 'tailwindcss';
+@import 'swiper/css';
+@import 'swiper/css/pagination';
+
+* {
+  user-select: none;
+}
+
+@font-face {
+  font-family: 'redrose';
+  src: url('./assets/fonts/RedRose-Regular.ttf');
+}
+@font-face {
+  font-family: 'syne-xb';
+  src: url('./assets/fonts/Syne-ExtraBold.ttf');
+}
+@font-face {
+  font-family: 'syne-reg';
+  src: url('./assets/fonts/Syne-Regular.ttf');
+}
+
+nav .router-link-exact-active {
+  @apply border-b-2 pb-0.5 border-white after:hidden;
+}
